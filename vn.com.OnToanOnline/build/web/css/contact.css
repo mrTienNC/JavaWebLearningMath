@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 3:55:12 PM
+    Author     : TienNguyen
+*/
+
+*{padding: 0; margin: 0}
+
+section#section_contact {
+    height: 550px;
+}
+
+.contact_info {
+    margin-top:  6em;
+}
+
+.form_contact legend {
+    font-size: 30px;
+    padding:  20px;
+    color:  #1B9CFC;
+    text-transform:  uppercase;
+    font-family:  'Josefin Sans';
+    font-weight:  600;
+    text-align: center;
+    letter-spacing:  2px;
+}
+
+.form_contact {}
+
+.form_contact form {
+    border:  none;
+    float: left;
+    text-align: initial;
+}
+
+.form_contact label {
+    font-size: 15px;
+    font-family: 'Josefin Sans';
+}
+
+.form_contact .form-group:nth-child(6) input {
+    height: 100px;
+}
+
+.form_contact input.form-control {width:  410px;padding:  10px;margin-left:  5em;}
+
+.form_contact form button {
+    padding:  10px;
+    font-size:  15px;
+    width: 85%;
+    margin:  0 auto;
+    text-align:  center;
+    float: right;
+}
+
+.form_contact button span {
+    padding-right:  10px;
+}
+
+p.job {
+    margin:  0 auto;
+    text-align:  center;
+    margin-top:  1em;
+    font-size:  25px;
+}
+
+div.contact_true_info h3 {
+    text-align:  center;
+    margin:  0 auto;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Alegreya';
+}
+
+div.contact_true_info h4 {
+    margin:  0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-family:  'Alegreya';
+}
+
+div.contact_true_info h4 span a {
+    font-size: 30px;
+    padding:  5px;
+}
+
+p.job span {
+    display: inline-block;
+    background:  #CAD3C8;
+    padding: 20px;
+    /* color: #fff; */
+    border-radius:  15px;
+}
+
+p.job span:hover {
+    background:  #1B9CFC;
+    cursor:  pointer;
+    color:  #fff;
+    transition:  0.5s;
+}
+
+.contact_image {
+    margin:  0 auto;
+    text-align:  center;
+    width: 300px;
+}

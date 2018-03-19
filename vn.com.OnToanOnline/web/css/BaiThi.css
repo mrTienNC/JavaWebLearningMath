@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 9:31:41 PM
+    Author     : TienNguyen
+*/
+
+*{margin: 0; padding: 0}
+
+.time {
+    position:  fixed;
+}
+
+.time span#countdown {background:  #ff7675;color:  #fff;border-radius:  20px;font-size:  30px;text-align:  center;margin-left:  25px;}
+
+.row1
+{
+    margin: auto;
+}
+
+.row.row1 {
+    font-family: itim, cursive;
+}
+
+.row.row1 h4 {
+    text-shadow: none;
+    color: deeppink;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.row.row2 {
+    text-align: center;
+}
+
+.row.row3 {
+    letter-spacing: 2px;
+}
+
+.row.row3 h3 {
+    text-decoration: underline;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.row.row3 h4 {
+    text-shadow: none;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+.row.row3 span {
+    padding: 10px;
+    margin: auto;
+    color: #3f15e6;
+}
+
+.row.row3 p {
+    font-size: 18px;
+    margin: auto;
+    padding-left:  4em;
+}
+
+.row.row3 input {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+input#nopBai {
+    padding: 10px;
+    margin-top: 50px;
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+}
+
+#huyBai {
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+}
+
+a#huyBai:hover {
+    background: #34495e;
+    transition: 0.5s;
+}
+
+.row.row2 h4 {
+    text-shadow: none;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.row.row2 button {
+    font-size: 30px;
+    width: 200px;
+    border-radius: 25%;
+}
+
+.row.row2 button:hover {
+    background: #e74c3c;
+    transition: 0.5s;
+}
+.time{
+    position: fixed;
+}
+.time span#countdown{
+    font-size: 35px;
+    color: #fff;
+    background: #ff7675;
+    border-radius: 20px;
+    margin-left: 25px;
+}

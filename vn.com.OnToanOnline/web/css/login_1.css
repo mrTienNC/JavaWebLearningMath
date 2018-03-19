@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2017, 3:07:17 PM
+    Author     : TienNguyen
+*/
+
+section{
+    text-align: center;
+}
+
+.dky h2 {
+    font-size: 30px;
+    margin-top:  2em;
+    font-family:  'Josefin Sans';
+    text-transform:  uppercase;
+    letter-spacing:  2px;
+}
+
+.dky a {
+    font-size:  20px;
+    width:  150px;
+    margin-top:  1em;
+    padding:  10px;
+}
+
+section h1 {
+    font-weight:  600;
+    letter-spacing:  2px;
+    font-size: 45px;
+    line-height:  40px;
+    padding:  10px;
+    font-family: Alegreya;
+    text-transform:  uppercase;
+}
+
+section form {
+    margin: auto;
+    border-right: 1px solid black;
+}
+
+section table {
+    margin: auto;
+}
+
+section table tr td {
+    padding: 10px;
+}
+
+section table tr:nth-child(1) td 
+ input {
+    width: 210px;
+}
+
+section table tr:nth-child(2) td 
+ input {width: 210px;}

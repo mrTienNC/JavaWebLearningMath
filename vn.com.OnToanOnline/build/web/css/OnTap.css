@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 8:49:04 PM
+    Author     : TienNguyen
+*/
+
+*{padding: 0; margin:  0}
+.baiThi
+{
+    text-align: center;
+    margin: auto;
+}
+
+section.baiThi div {
+    margin: auto;
+    margin-left: 8%;
+}
+
+section.baiThi div > div {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section.baiThi img {
+    width: 300px;
+    
+    margin: auto;
+}
+
+section.baiThi h3 {
+    margin: 20px;
+    font-weight: 600;
+}
+
+section.baiThi a {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 25%;
+}
+
+section.baiThi a:hover {
+    background: #e74c3c;
+    transition: 1s;
+}

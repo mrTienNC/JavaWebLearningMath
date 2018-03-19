@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vn.com.OnToanOnline:war exploded">
+    <output-path>E:/javaweb/complie/artifacts/vn_com_OnToanOnline_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="vn.com.OnToanOnline" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="vn.com.OnToanOnline/web/Web" />
+      <element id="android-final-package" facet="vn.com.OnToanOnline/android/Android" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,321 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2018, 11:50:32 PM
+    Author     : TienNguyen
+*/
+
+* {
+ margin: 0;
+ padding: 0
+}
+
+.admin_menu li a span{
+  padding-right: 10px;
+}
+
+
+.dashboard_admin {
+  height: 800px;
+  position: fixed;
+  margin: 0 auto;
+  background: #2980b9e6;
+  color: #fff;
+}
+#section_main {
+  position: relative;
+}
+.admin_ava img {
+  width: 120px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.admin_ava {
+  text-align: center;
+  margin: 1em 3em;
+  font-family: roboto;
+}
+.admin_menu {
+  margin: 0 auto;
+  padding-top: 2em;
+}
+.admin_ava p {
+  font-size: 20px;
+  padding-top: 1em;
+  letter-spacing: 2px;
+}
+.admin_menu li a {
+  color: #fff;
+  padding-left: 1em;
+  display: block;
+  /*! border: 1px solid white; */
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  text-transform: uppercase;
+  font-family: roboto;
+}
+.admin_menu li:hover {
+  background: #fff;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.admin_menu li {
+  list-style: none;
+  height: 50px;
+}
+
+.admin_footer {
+  
+  text-align: center;
+}
+.admin_footer p {
+  padding: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+.admin_footer p a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Roboto;
+  padding: 10px;
+}
+.admin_footer p span {
+  background: #fc5c65;
+  border-radius: 20px;
+  height: ;
+}
+.admin_footer p a:hover {
+  background: #fff;
+  color: #4b7bec;
+  border-radius: 20px;
+}
+a {
+}
+.admin_menu li:hover a {
+  color: #3867d6;
+}
+
+
+.dashboard_navbar {
+  height: 50px;
+  background: #4b7bec;
+  padding: 10px;
+}
+.dashboard_navbar_left{
+  float: left;
+  color: #fff;
+}
+.dashboard_navbar_right{
+  float: right;
+}
+.dashboard_navbar_right ul li{
+  display: inline-block;
+  padding: 0 10px;
+  width: 70px;
+}
+.dashboard_navbar_right ul li a{
+  color: #fff;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.dashboard_navbar_left span {
+  padding-right: 15px;
+}
+
+.dropdown_content a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px !important;
+}
+.dropdown_content a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #e74c3c;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+    width: 150px;
+    background: #4b7bec;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    right: -10px;
+    z-index: 1;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+}
+
+.dashboard_navbar_right li a:hover{
+  background: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.dashboard_navbar_right li{
+  padding-right: 15px;
+}
+.listed {
+    border: 1px solid lavenderblush;
+    box-shadow: #5c0d0d 5px 5px 10px;
+}
+.listed_info span {
+    padding: 10px;
+}
+.number {
+    text-align: center;
+    padding: 10px;
+}
+#rowList {
+    margin-top: 5em;
+}
+.name {
+    padding: 10px;
+    margin-top: 10px;
+}
+.listed_info{
+  font-family: roboto;
+  letter-spacing: 2px;
+  color:  #fff;
+}
+.listed1{
+    background: linear-gradient(to top right, #ff6666 0%, #99ccff 120%);
+}
+.listed2 {
+    color: #fff;
+    background: linear-gradient(to top, #ff0000 0%, #333399 100%) !important;
+}
+.listed3{
+  background: linear-gradient(to top, #ff6666 4%, #0099ff 95%);
+
+}
+.listed4{
+  background: linear-gradient(to top, #ff66ff -11%, #333399 120%);
+  color: #fff;
+}
+.active{
+  color: #3867d6 !important;
+  background: #fff;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.hidden{
+  display: none;
+  height: 0;
+
+}
+.show{
+  display: block;
+  height: auto;
+}
+.active a{
+  color: #3867d6 !important;;
+}
+
+.profile_ava img {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+#profile {
+    margin-top: 5em;
+}
+.profile_ava {
+    text-align: center;
+}
+
+.profile_info legend {
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #3e8cc0;
+}
+.profile_info tr {
+    height: 50px;
+}
+.profile_info tr td {
+    padding: 10px;
+}
+.profile_info tr td span {
+    padding: 10px;
+}
+.profile_info button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: roboto;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    text-align: center;
+}
+.profile_info button:hover {
+    background: #ff5050;
+    color: #FFF;
+    box-shadow: black 5px 5px 5px;
+}
+.profile_info tr td input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+.profile_ava input {
+    padding: 10px;
+    margin: 1em auto;
+}
+.margin{
+  margin :2em auto;
+}
+.feedback_info table {
+    margin: 0 5em;
+}
+.feedback_info legend {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #3e8cc0;
+    font-family: Roboto;
+    letter-spacing: 5px;
+}
+.feedback_info table {
+    margin: 0 5em;
+}
+.feedback_info table th, .feedback_info table td {
+    text-align: center;
+}
+.feedback_info tr td {
+    padding: 10px;
+    text-align: center;
+    font-family: roboto;
+}
+#feedback {
+    height: 600px;
+}
+.feedback_info table th {
+    padding: 10px;
+    font-family: roboto;
+}
+.profile_info button {
+    margin-right: 2em;
+}
